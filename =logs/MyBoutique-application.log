@@ -1,0 +1,50 @@
+2021-03-04 10:23:44.245  INFO 23272 --- [main] c.t.MyBoutique_20.ApplicationTests       : Starting ApplicationTests on NBR00457 with PID 23272 (started by mohamed.skiken in C:\Users\mohamed.skiken\Desktop\exemple\MyBoutique_2.0)
+2021-03-04 10:23:44.255  INFO 23272 --- [main] c.t.MyBoutique_20.ApplicationTests       : No active profile set, falling back to default profiles: default
+2021-03-04 10:23:46.566  INFO 23272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-04 10:23:46.740  INFO 23272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162ms. Found 10 JPA repository interfaces.
+2021-03-04 10:23:48.026  INFO 23272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-04 10:23:48.154  INFO 23272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2021-03-04 10:23:48.389  INFO 23272 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-04 10:23:48.787  INFO 23272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-04 10:23:49.074  INFO 23272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-04 10:23:49.112  INFO 23272 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-04 10:23:50.403  INFO 23272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-04 10:23:50.412  INFO 23272 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-04 10:23:50.544  WARN 23272 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-04 10:23:53.432  INFO 23272 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68550d86, org.springframework.security.web.context.SecurityContextPersistenceFilter@253b1cbd, org.springframework.security.web.header.HeaderWriterFilter@281ca256, org.springframework.security.web.authentication.logout.LogoutFilter@7ebaf0d, com.training.MyBoutique_20.security.filters.JwtRequestFilter@65da4a5d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@362b384c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1a85e86e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19d9ba89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37083af6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d65e744, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@52c6e959, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@484876a1, org.springframework.security.web.session.SessionManagementFilter@7c8b37a8, org.springframework.security.web.access.ExceptionTranslationFilter@7112fa5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@383e6734]
+2021-03-04 10:23:53.554  INFO 23272 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-04 10:23:54.328  INFO 23272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-04 10:23:54.478  INFO 23272 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-03-04 10:23:54.921  INFO 23272 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-04 10:23:55.072  INFO 23272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-04 10:23:55.121  INFO 23272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-04 10:23:55.188  INFO 23272 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-04 10:23:55.673  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_1
+2021-03-04 10:23:55.675  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2021-03-04 10:23:55.681  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2021-03-04 10:23:55.690  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_1
+2021-03-04 10:23:55.722  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_2
+2021-03-04 10:23:55.775  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_2
+2021-03-04 10:23:55.779  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2021-03-04 10:23:55.818  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_2
+2021-03-04 10:23:55.850  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_3
+2021-03-04 10:23:55.852  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_3
+2021-03-04 10:23:55.856  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_3
+2021-03-04 10:23:55.862  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_3
+2021-03-04 10:23:55.866  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_4
+2021-03-04 10:23:55.868  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_4
+2021-03-04 10:23:55.871  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_4
+2021-03-04 10:23:55.874  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_4
+2021-03-04 10:23:55.879  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_5
+2021-03-04 10:23:55.881  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_5
+2021-03-04 10:23:55.887  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_5
+2021-03-04 10:23:55.890  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_5
+2021-03-04 10:23:55.898  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_6
+2021-03-04 10:23:55.901  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_6
+2021-03-04 10:23:55.905  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_6
+2021-03-04 10:23:55.908  INFO 23272 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_6
+2021-03-04 10:23:55.955  INFO 23272 --- [main] c.t.MyBoutique_20.ApplicationTests       : Started ApplicationTests in 12.16 seconds (JVM running for 13.564)
+2021-03-04 10:23:56.242  INFO 23272 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-04 10:23:56.254  INFO 23272 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-04 10:23:56.258  INFO 23272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-04 10:23:56.275  INFO 23272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
